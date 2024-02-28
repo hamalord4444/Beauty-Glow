@@ -147,8 +147,10 @@ header {
     }
     .nav-menu {
         flex-direction: column;
-        padding: 0px;
         text-align: center;
+        margin: -40px;
+        margin-bottom: auto;
+        margin-top: auto;
     }
     .nav-menu li {
         margin-bottom: 10px;
