@@ -1,13 +1,17 @@
-function submitForm() {
-    // Get values from form fields
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
+// JavaScript code to handle the WhatsApp button click event
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the WhatsApp button element
+    var whatsappButton = document.querySelector(".whatsapp-button");
 
-    // Construct WhatsApp message URL
-    var whatsappMessage = "Hi, I'm " + name + ". My email is " + email + ". My message is: " + message;
-    var whatsappURL = "https://wa.me/+9647503435403?text=hello" + encodeURIComponent(whatsappMessage);
+    // Add a click event listener to the WhatsApp button
+    whatsappButton.addEventListener("click", function(event) {
+        // Prevent the default behavior of the link
+        event.preventDefault();
 
-    // Redirect to WhatsApp
-    window.location.href = whatsappURL;
-}
+        // Replace the phone number with your desired WhatsApp number
+        var phoneNumber = "1234567890";
+
+        // Open a new window with the WhatsApp chat link
+        window.open("https://api.whatsapp.com/send?phone=" + phoneNumber, "_blank");
+    });
+});
