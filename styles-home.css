@@ -1,0 +1,191 @@
+/* styles-home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 0, 162, 0.604);
+}
+
+
+/* #home1 styles */
+
+#home1 {
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #b20065;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#home1:hover {
+    background-color: #ffffff;
+    color: #8f0058;
+    padding: 13px;
+}
+
+#home1:active {
+    background-color: #4a0023;
+    color: #ffffff;
+}
+
+
+/* #about1 styles */
+
+#about1 {
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #b20065;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#about1:hover {
+    background-color: #ffffff;
+    color: #8f0058;
+    padding: 13px;
+}
+
+#about1:active {
+    background-color: #4a0023;
+    color: #ffffff;
+}
+
+
+/* #services1 styles */
+
+#services1 {
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #b20065;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#services1:hover {
+    background-color: #ffffff;
+    color: #8f0058;
+    padding: 13px;
+}
+
+#services1:active {
+    background-color: #4a0023;
+    color: #ffffff;
+}
+
+
+/* #contact1 styles */
+
+#contact1 {
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #b20065;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#contact1:hover {
+    background-color: #ffffff;
+    color: #8f0058;
+    padding: 13px;
+}
+
+#contact1:active {
+    background-color: #4a0023;
+    color: #ffffff;
+}
+
+.container1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.container1 img {
+    display: inline-block;
+    vertical-align: -60%;
+}
+
+#img1 {
+    border-radius: 60px;
+}
+
+#img1:hover {
+    width: 650px;
+    border-radius: 60px;
+}
+
+header {
+    background-color: #8f0058;
+    padding: 20px 0;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
