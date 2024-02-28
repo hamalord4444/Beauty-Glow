@@ -199,8 +199,8 @@ form button:hover {
     }
     .nav-menu {
         flex-direction: column;
-        padding: 0px;
         text-align: center;
+        margin: -20px;
     }
     .nav-menu li {
         margin-bottom: 10px;
