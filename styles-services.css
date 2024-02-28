@@ -161,7 +161,9 @@ header {
     }
     .nav-menu {
         flex-direction: column;
-        padding: 0px;
+        margin: -40px;
+        margin-bottom: auto;
+        margin-top: auto;
         text-align: center;
     }
     .nav-menu li {
