@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
 
         // Replace the phone number with your desired WhatsApp number
-        var phoneNumber = "1234567890";
+        var phoneNumber = "9647503435403";
 
         // Open a new window with the WhatsApp chat link
         window.open("https://api.whatsapp.com/send?phone=" + phoneNumber, "_blank");
