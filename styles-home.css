@@ -193,6 +193,16 @@ form button:hover {
     background-color: #555;
 }
 
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-button img {
+    border-radius: 50px;
+}
+
 @media screen and (max-width: 458px) {
     .container1 {
         padding: -10px;
