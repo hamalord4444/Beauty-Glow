@@ -121,6 +121,7 @@ body {
     border-radius: 60px;
     max-width: 100%;
     height: auto;
+    width: auto;
 }
 
 #img1:hover {
@@ -192,16 +193,19 @@ form button:hover {
     background-color: #555;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 458px) {
     .container1 {
-        padding: 10px;
+        padding: -10px;
     }
     .nav-menu {
         flex-direction: column;
+        padding: 0px;
         text-align: center;
     }
     .nav-menu li {
         margin-bottom: 10px;
+        display: inline;
+        margin: auto;
     }
     .container2,
     .container3,
@@ -209,10 +213,26 @@ form button:hover {
         padding: 20px;
     }
     .container3 form {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
     #img1 {
         max-width: 100%;
         height: auto;
+    }
+    .section {
+        text-align: center;
+    }
+    .container3 h2,
+    .container3 p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container3 form label,
+    .container3 form input,
+    .container3 form textarea,
+    .container3 form button {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
