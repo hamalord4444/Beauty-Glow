@@ -6,7 +6,7 @@ function submitForm() {
 
     // Construct WhatsApp message URL
     var whatsappMessage = "Hi, I'm " + name + ". My email is " + email + ". My message is: " + message;
-    var whatsappURL = "https://wa.me/<your-whatsapp-number>?text=" + encodeURIComponent(whatsappMessage);
+    var whatsappURL = "https://wa.me/+9647503435403?text=hello" + encodeURIComponent(whatsappMessage);
 
     // Redirect to WhatsApp
     window.location.href = whatsappURL;
