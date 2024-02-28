@@ -140,3 +140,22 @@ header {
     padding: 50px 0;
     text-align: center;
 }
+
+@media screen and (max-width: 458px) {
+    .container {
+        padding: -10px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        padding: 0px;
+        text-align: center;
+    }
+    .nav-menu li {
+        margin-bottom: 10px;
+        display: inline;
+        margin: auto;
+    }
+    .section {
+        text-align: center;
+    }
+}
