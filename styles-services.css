@@ -1,4 +1,4 @@
-/* styles-about.css */
+/* styles-services.css */
 
 body {
     font-family: Arial, sans-serif;
@@ -153,4 +153,23 @@ header {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 458px) {
+    .container {
+        padding: -10px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        padding: 0px;
+        text-align: center;
+    }
+    .nav-menu li {
+        margin-bottom: 10px;
+        display: inline;
+        margin: auto;
+    }
+    .section {
+        text-align: center;
+    }
 }
