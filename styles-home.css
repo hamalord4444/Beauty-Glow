@@ -119,6 +119,8 @@ body {
 
 #img1 {
     border-radius: 60px;
+    max-width: 100%;
+    height: auto;
 }
 
 #img1:hover {
@@ -188,4 +190,29 @@ form button {
 
 form button:hover {
     background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        padding: 10px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-menu li {
+        margin-bottom: 10px;
+    }
+    .container2,
+    .container3,
+    .container4 {
+        padding: 20px;
+    }
+    .container3 form {
+        width: 100%;
+    }
+    #img1 {
+        max-width: 100%;
+        height: auto;
+    }
 }
