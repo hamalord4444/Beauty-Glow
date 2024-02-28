@@ -200,7 +200,9 @@ form button:hover {
     .nav-menu {
         flex-direction: column;
         text-align: center;
-        margin: -20px;
+        margin: -40px;
+        margin-bottom: auto;
+        margin-top: auto;
     }
     .nav-menu li {
         margin-bottom: 10px;
